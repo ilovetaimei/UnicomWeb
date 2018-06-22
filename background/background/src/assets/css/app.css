@@ -1,0 +1,153 @@
+body {
+  max-height: 1200px;
+  min-height: 600px;
+  background-color: #111E44;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.router-link-active {
+  background-color: rgba(70, 86, 131, .4);
+  border-left: 3px solid yellow;
+}
+
+.router-link-active span {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.el-header {
+  font-size: 1.125rem;
+  background-color: #1C285F;
+  line-height: 3.75rem;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  padding-left: 300px;
+  color: #ffffff;
+}
+
+.log {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 60px;
+  background-color: rgba(70, 86, 131, .2);
+  text-align: center
+}
+
+.log span {
+  line-height: 60px;
+  color: rgba(204, 204, 204, .6);
+}
+
+/* 测导航部分 */
+
+.el-aside {
+  width: 300px;
+  /* height: 90vh; */
+  background-color: #1C285F;
+}
+
+.el-img {
+  width: 300px;
+  height: 160px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  background-color: #1C285F;
+}
+
+.el-img img {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+/* 侧边导航栏问题 */
+
+.icon {
+  position: absolute;
+  top: 20px;
+  right: 29.9px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #9e9e9ef5;
+  border-right: 2px solid #9e9e9ef5;
+  transform: rotate(45deg);
+}
+
+.happy-scroll-container {
+  height: 660px;
+}
+
+.el-nave {
+  height: 500px;
+}
+
+.one-nav {
+  padding: 0;
+}
+
+.one-nav li {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  /* height: 46px; */
+}
+
+.one-nav li a {
+  color: rgba(204, 204, 204, .6);
+  display: block;
+  widows: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.one-nav li span {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 46px;
+  padding-left: 87px;
+  font-size: 18px;
+}
+
+.two-nav {
+  box-sizing: border-box;
+  border-left: 3px solid yellow;
+  background-color: rgba(70, 86, 131, .4);
+}
+
+.two-nav li span {
+  box-sizing: border-box;
+  padding-left: 118px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* .two-nav li:nth-child(1) span {
+  color: #FF9F00;
+} */
+
+.current {
+  color: #FF9F00 !important;
+}
+
+.back {
+  background-color: #1C285F;
+}

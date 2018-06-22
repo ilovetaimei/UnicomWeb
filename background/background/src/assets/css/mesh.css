@@ -1,0 +1,259 @@
+.current2 {
+  border: 1px solid #FF9F00;
+  color: #FF9F00
+}
+
+.check {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  margin-top: 39px;
+  margin-left: -2px;
+  border: 1px solid #4E41CB;
+}
+
+.check span {
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.box3 {
+  position: absolute;
+  top: 14px;
+  left: 130px;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 8px solid white;
+  transform: rotate(180deg)
+}
+
+.nav {
+  width: 100%;
+  /* height: 301px; */
+  /* background-color: pink; */
+  margin-top: 20px;
+  border: 1px solid #C86DD7;
+  border-image: -webkit-linear-gradient(#3023AE, #C86DD7) 30 30;
+  border-image: -moz-linear-gradient(#3023AE, #C86DD7) 30 30;
+  border-image: linear-gradient(#3023AE, #C86DD7) 30 30;
+}
+
+.network {
+  width: 100%;
+  /* height: 90px; */
+  border-bottom: 1px dashed #D8D8D8
+  /* background-color: red; */
+}
+
+.branch {
+  width: 100%;
+  border-bottom: 1px dashed #D8D8D8
+  /* height: 90px; */
+  /* background-color: green; */
+}
+
+.level {
+  width: 100%;
+  height: 43px;
+  /* background-color: yellow; */
+}
+
+.network .title {
+  float: left;
+  width: 160px;
+  /* height: 90px; */
+  /* background-color: pink; */
+}
+
+.network .left-content {
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  /* padding-top: 20px; */
+}
+
+.network .title span {
+  display: block;
+  text-indent: 24px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.network .left-content li {
+  float: left;
+  height: 32px;
+  width: 84px;
+  margin: 10px 10px;
+  font-size: 16px;
+}
+
+.network .content-ul li span {
+  display: block;
+  widows: 84px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.branch .title {
+  float: left;
+  width: 160px;
+  /* height: 90px; */
+  /* background-color: #ccc; */
+}
+
+.branch .title span {
+  display: block;
+  text-indent: 24px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.branch .left-content {
+  overflow: hidden;
+}
+
+.branch .left-content li {
+  /* box-sizing: border-box; */
+  float: left;
+  height: 32px;
+  width: 60px;
+  margin: 10px 10px;
+}
+
+.branch .left-content li span {
+  display: block;
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.level .title {
+  float: left;
+  width: 160px;
+  /* height: 43px; */
+  /* background-color: saddlebrown; */
+}
+
+.level .title span {
+  display: block;
+  text-indent: 24px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.level .left-content li {
+  box-sizing: border;
+  float: left;
+  height: 32px;
+  width: 60px;
+  margin-left: 12px;
+}
+
+.level .left-content li span {
+  display: block;
+  width: 60px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  margin-top: 9px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* 表格 */
+
+.tab {
+  overflow: hidden;
+  width: 100%;
+  height: 310px;
+  margin-top: 20px;
+  border: 1px solid #C86DD7;
+  border-image: -webkit-linear-gradient(#3023AE, #C86DD7) 30 30;
+  border-image: -moz-linear-gradient(#3023AE, #C86DD7) 30 30;
+  border-image: linear-gradient(#3023AE, #C86DD7) 30 30;
+}
+
+.table2 {
+  /* height: 100%; */
+  width: 100%;
+  margin: 15px 0;
+  border: 0;
+  margin-top: 0;
+}
+
+.table2 th {
+  /* background-color: #1C285F; */
+  color: #FFFFFF;
+}
+
+/* .table2 {
+  height: 100%;
+} */
+
+.table2,
+.table2 th,
+.table2 td {
+  font-size: 14px;
+  text-align: center;
+  border-collapse: collapse;
+  color: #ffffff;
+}
+
+.table2 th {
+  height: 40px;
+}
+
+.table2 thead {
+  background: -webkit-linear-gradient(left, #3023AE, #C86DD7);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(left, #3023AE, #C86DD7);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(left, #3023AE, #C86DD7);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(left, #3023AE, #C86DD7);
+  /* 标准的语法,必须放最后 */
+}
+
+.table2 td {
+  height: 45px;
+}
+
+.table2 tr:nth-child(even) {
+  background: hsla(224, 49%, 26%, 19.85%);
+}
+
+.table2 td span {
+  display: inline-block;
+  width: 100px;
+  height: 24px;
+  border: 1px solid #A6FD47;
+  color: #A6FD47;
+  cursor: pointer;
+}
+
+.happy-scroll-content {
+  border-right: 0;
+}
+
+.happy-scroll-container {
+  height: 660px !important;
+}
