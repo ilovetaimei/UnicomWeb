@@ -1,0 +1,79 @@
+
+.container{
+    width: 1800px;
+    box-sizing: content-box;
+   -webkit-box-sizing: content-box;
+   transform-origin: left top 0px;
+}
+
+.title1{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    display: block;
+    font-size: 18px;
+}
+.table1{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+
+.table2{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    right: 50px;
+}
+
+.table3{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+.table4{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 700px;
+    right: 50px;
+}
+.table5{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+}
+.net{
+    width: 600px;
+    height: 356px;
+}
+
+.info{
+    width: 100%;
+}
+.row{
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+}
+.row span{
+    display:inline-block;
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.tabWarp{
+    width: 100%;
+    display:block;
+    margin: 20px auto;
+}
+.ivu-table{
+    font-size: 16px;
+}

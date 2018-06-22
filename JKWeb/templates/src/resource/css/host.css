@@ -1,0 +1,87 @@
+
+.container{
+    width: 1800px;
+    box-sizing: content-box;
+   -webkit-box-sizing: content-box;
+   transform-origin: left top 0px;
+}
+.tab{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+}
+.table1{
+    width: 800px;
+    /* height: 300px; */
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.title{
+    height: 80px;
+    line-height: 80px;
+}
+.title1{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    display: block;
+    font-size: 18px;
+}
+.title2{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    display: block;
+    font-size: 18px;
+}
+.table2{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.table3{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+.table4{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 370px;
+    right: 50px;
+}
+.logo{
+    width: 800px;
+    height: 200px;
+}
+
+.info{
+    width: 100%;
+}
+.row{
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+}
+.row span{
+    display:inline-block;
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.tabWarp{
+    width: 100%;
+    display:block;
+    margin: 20px auto;
+}
+.ivu-table{
+    font-size: 16px;
+}
